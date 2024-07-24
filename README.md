@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is an ASP.NET Core Web API that calculates the Body Mass Index (BMI) based on user input weight(cm) and height(kg). It provides an endpoint to compute the BMI and returns the BMI value along with its category.
+This project is an ASP.NET Core Web API that calculates the Body Mass Index (BMI) based on user input weight(kg) and height(cm). It provides an endpoint to compute the BMI and returns the BMI value along with its category.
 
 ## Getting Started
 
