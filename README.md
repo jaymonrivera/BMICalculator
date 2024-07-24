@@ -1,1 +1,19 @@
-# BMICalculator
+# BMI Calculator API
+
+## Overview
+
+This project is an ASP.NET Core Web API that calculates the Body Mass Index (BMI) based on user input weight(cm) and height(kg). It provides an endpoint to compute the BMI and returns the BMI value along with its category.
+
+## Getting Started
+
+### Prerequisites
+
+- [.NET 5 SDK or later](https://dotnet.microsoft.com/download)
+
+### Setup
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/yourusername/BMICalculator.git
+   cd BMICalculator
