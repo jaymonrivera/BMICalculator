@@ -8,7 +8,7 @@ This project is an ASP.NET Core Web API that calculates the Body Mass Index (BMI
 
 ### Prerequisites
 
-- [.NET 5 SDK or later](https://dotnet.microsoft.com/download)
+- [.NET 8 SDK or later](https://dotnet.microsoft.com/download)
 
 ### Setup
 
