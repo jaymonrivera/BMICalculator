@@ -1,0 +1,7 @@
+﻿namespace BMICalculator.DTOs;
+
+public class BMIResultDto
+{
+    public float BMI { get; set; }
+    public string Category { get; set; } = string.Empty;
+}
