@@ -15,5 +15,5 @@ This project is an ASP.NET Core Web API that calculates the Body Mass Index (BMI
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/BMICalculator.git
+   git clone https://github.com/jaymonrivera/BMICalculator.git
    cd BMICalculator
