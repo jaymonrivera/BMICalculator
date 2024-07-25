@@ -1,4 +1,6 @@
-﻿using BMICalculator.Enums;
+﻿using BMICalculator.Contants;
+using BMICalculator.Enums;
+using BMICalculator.Extns;
 
 namespace BMICalculator.Services;
 
@@ -8,11 +10,11 @@ public class BMICalculatorService : IBMICalculator
     {
         if (weight <= 0 || height <= 0)
         {
-            throw new ArgumentException("Weight and height must be greater than zero.");
+            throw new ArgumentException(ErrorMessages.WeightAndHeightGreaterThanZero);
         }
 
         float heightInMeters = ConvertHeightToMeters(height);
-        return CalculateBMIValue(weight, heightInMeters);
+        return CalculateBMIValue(weight, heightInMeters).Round(2);
     }
 
     public BMICategory GetBMICategory(float bmi)
