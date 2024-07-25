@@ -4,7 +4,7 @@ namespace BMICalculator.Services;
 
 public class BMICalculatorService : IBMICalculator
 {
-    public float CalculateBMI(float weight, float height)
+    public float GetBMIValue(float weight, float height)
     {
         if (weight <= 0 || height <= 0)
         {

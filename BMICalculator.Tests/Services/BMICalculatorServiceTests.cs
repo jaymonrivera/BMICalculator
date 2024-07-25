@@ -2,7 +2,7 @@ using BMICalculator.Enums;
 using BMICalculator.Services;
 
 
-namespace BMICalculator.Tests;
+namespace BMICalculator.Tests.Services;
 
 [TestFixture]
 public class BMICalculatorServiceTests
@@ -19,7 +19,7 @@ public class BMICalculatorServiceTests
     [TestCase(100, 168, 35.43f)]
     public void CalculateBMI_ShouldReturnCorrectBMI(float weight, float height, float expectedBmi)
     {
-        var result = _bmiCalculatorService.CalculateBMI(weight, height);
+        var result = _bmiCalculatorService.GetBMIValue(weight, height);
 
         Assert.That(result, Is.EqualTo(expectedBmi).Within(0.01f));
     }
@@ -38,9 +38,9 @@ public class BMICalculatorServiceTests
     [Test]
     public void CalculateBMI_WithInvalidInputs_ShouldThrowArgumentException()
     {
-        Assert.Throws<ArgumentException>(() => _bmiCalculatorService.CalculateBMI(0f, 0f));
-        Assert.Throws<ArgumentException>(() => _bmiCalculatorService.CalculateBMI(70f, 0f));
-        Assert.Throws<ArgumentException>(() => _bmiCalculatorService.CalculateBMI(-1f, 1.75f));
-        Assert.Throws<ArgumentException>(() => _bmiCalculatorService.CalculateBMI(70f, -1f));
+        Assert.Throws<ArgumentException>(() => _bmiCalculatorService.GetBMIValue(0f, 0f));
+        Assert.Throws<ArgumentException>(() => _bmiCalculatorService.GetBMIValue(70f, 0f));
+        Assert.Throws<ArgumentException>(() => _bmiCalculatorService.GetBMIValue(-1f, 1.75f));
+        Assert.Throws<ArgumentException>(() => _bmiCalculatorService.GetBMIValue(70f, -1f));
     }
 }

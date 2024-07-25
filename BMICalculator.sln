@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMICalculator", "BMICalculator\BMICalculator.csproj", "{649A5DD8-1F22-461A-BCD1-186B97503728}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BMICalculator", "BMICalculator\BMICalculator.csproj", "{649A5DD8-1F22-461A-BCD1-186B97503728}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMICalculator.Tests", "BMICalculator.Tests\BMICalculator.Tests.csproj", "{F6EC0AB2-56DC-475B-849E-557050D08FBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BMICalculator.Tests", "BMICalculator.Tests\BMICalculator.Tests.csproj", "{F6EC0AB2-56DC-475B-849E-557050D08FBA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -3,5 +3,5 @@
 public record BMIResultDto
 {
     public float BMI { get; set; }
-    public string Category { get; set; } = string.Empty;
+    public string? Category { get; set; }
 }
