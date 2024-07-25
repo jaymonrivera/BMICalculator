@@ -12,7 +12,7 @@ This project contains a BMI calculator service with accompanying unit tests usin
 Ensure that you have the following installed:
 - [.NET SDK](https://dotnet.microsoft.com/download) (Version 6.0 or later)
 - [Visual Studio](https://visualstudio.microsoft.com/downloads/) or another IDE with .NET support
-- [NUnit](https://nunit.org/) and [NUnit3TestAdapter](https://www.nuget.org/packages/NUnit3TestAdapter/) for running tests
+- [NUnit](https://nunit.org/),  [NUnit3TestAdapter](https://www.nuget.org/packages/NUnit3TestAdapter/) and  [Moq](https://www.nuget.org/packages/Moq/4.20.70/) for running tests
 
 ## Building the Project
 
